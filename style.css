@@ -1,0 +1,43 @@
+form{
+    height: 700px;
+    width: 400px;
+    margin-left: 400px;
+    background-color: whitesmoke;
+    padding-left: 40px;
+    border-radius: 5px;
+    box-shadow: 10px 7px 50px 5px black;
+}
+
+h1{
+    font-size: 40px;
+    margin-bottom: 50px;
+    margin-top: -30px;
+    color: rgb(14, 14, 107);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.label{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Reset{
+    margin-left: -20px;
+}
+
+input{
+    width: 400px;
+    height: 30px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+fieldset{
+    margin-left: -37px;
+}
+
+legend{
+    font-size: 30px;
+}

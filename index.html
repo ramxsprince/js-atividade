@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="javascript:void(0);">
+        <fieldset>
+            <legend>Cadastro:</legend>
+            <div>
+                <label class="label" for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome">
+            </div>
+            <div>
+                <label class="label" for="email">E-mail:</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div>
+                <label class="label" for="nasc">Nascimento:</label>
+                <input type="date" name="nasc" id="nasc">
+            </div>
+            <div>
+                <input id="Cadastrar" type="submit" value="Cadastrar">
+            </div>
+        </fieldset>
+
+        <h2>Cadastro</h2>
+            <div>
+                <input id="Reset" type="reset" value="Limpar">
+            </div>
+        <ul>
+            <li id="li1">Nome:</li>
+            <li id="li2">E-mail:</li>
+            <li id="li3">Data de Nascimento:</li>
+        </ul>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
